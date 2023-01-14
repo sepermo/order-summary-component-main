@@ -1,0 +1,45 @@
+.iconAndText{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconoMusica{
+    margin-right: 20px;
+}
+.producto {
+    border-radius: 15px;
+    background-color:  hsl(225, 100%, 98%);
+    margin: 20px 50px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.producto p{
+    font-size: 14px;
+}
+.producto .LinkChange a {
+    font-size: 12.5px; /* Tamaño de la fuente en pixeles */
+}
+
+.titulo {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.precio {
+    color: hsl(224, 23%, 55%);
+}
+
+.LinkChange a{
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.LinkChange a:hover{
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.8)
+}

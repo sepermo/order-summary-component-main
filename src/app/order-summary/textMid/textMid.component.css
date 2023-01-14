@@ -1,0 +1,17 @@
+.textMid h1, p{
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+.textMid  h1{
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+    margin: 20px 0px 10px 0px;
+}
+
+.textMid  p{
+    margin: 0 20%;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    line-height: 20px;
+}
